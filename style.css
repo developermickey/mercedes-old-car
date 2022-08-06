@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100vh;
+    background-color: #F6F6F6;
+    overflow: hidden;
+}
+#page1{
+    width: 100%;
+    display: flex;
+}
+#page1 #left {
+    width: 92%;
+    height: 100vh;
+}
+
+#page1 #left #nav-bar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#page1 #left #nav-bar #logo {
+    margin-left: 50px;
+    width: 45;
+}
+
+#page1 #left #nav-bar #text-left {
+    width: 45;
+    letter-spacing: 5px;
+    font-size: 14px;
+   color: #94837B;
+   font-weight: 100;
+}
+#page1 #left #page1-content{
+    text-align: center;
+    justify-content: center;
+    display: block;
+
+}
+#page1 #left #page1-content> h1 {
+    font-size: 30vh;
+    font-weight: 400;
+    align-items: center;
+    color: #fff;
+    animation: neww 2.5s linear;
+    
+}
+#page1 #left #page1-content h3 {
+    font-size: 3vh;
+    font-family: Gilroy;
+    letter-spacing: 20px;
+    font-weight: 600;
+    align-items: center;
+    color: #DABE94;
+    position: absolute;
+    top: 200px;
+    left: 340px;
+    animation: h3333 2.5s  linear;
+}
+#page1 #left #page1-content img {
+    width: 80%;
+    animation: car 3s linear;
+}
+#page1 #left #page1-content #new-arrow {
+    background-color: #fff;
+    width: 100px;
+    height: 70px;
+    color: #94837B;
+    position: absolute;
+    top: 350px;
+}
+#page1 #left #page1-content #new-arrow i {
+    font-size: 30px;
+    position: absolute;
+    top: 15px;
+    left: 32px;
+}
+#page1 #left #page1-content #new-arrow p {
+    margin-top: 56%;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+#page1 #right {
+    
+    width: 8%;
+    height: 100vh;
+    border-left: 1px solid #94837B;
+    display: block;
+    position: relative;
+}
+
+#page1 #right #menu-humber {
+    margin-top: 20px;
+    height: 50%;
+    align-items: center;
+    margin-left: 35px;
+    font-size: 30px;
+    color: #94837B;
+}
+#page1 #right #search-icons {
+    height: 50%;
+    align-items: center;
+    margin-left: 35px;
+    font-size: 30px;
+    color: #94837B;
+}
+
+
+@keyframes car {
+    from {
+        transform: rotateY(20deg);
+    }
+    to {
+        transform: rotateY(-20deg);
+
+    }
+  }
+
+
+  @keyframes h3333 {
+    from {
+        top: 0;
+    }
+    to {
+        top: 28%;
+    }
+  }
+
+
+  @keyframes neww {
+    from {
+        top: 0;
+    }
+    to {
+        top: 30%;
+    }
+  }
